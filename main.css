@@ -1,0 +1,91 @@
+body{
+    background-image: linear-gradient(45deg, #ffed63 25%, #d1a926 25%, #d1a926 50%, #ffed63 50%, #ffed63 75%, #d1a926 75%, #d1a926 100%);
+background-size: 42.43px 42.43px;
+margin:0px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    background-color: white;
+    padding:15px;
+    width:600px;
+    border-bottom: 1px solid grey;
+}
+.record{
+    background-color: white;
+    padding:15px;
+    width:600px; 
+}
+.form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+input{
+    outline: none;
+}
+.long-input{
+    grid-column: 1/3;
+}
+input:hover,button:hover{
+    opacity: 0.8;
+}
+.input{
+    font-size: 16px;
+    outline: none;
+    border:0.5px solid gray;
+    border-radius: 15px;
+    padding:15px;
+}
+
+.add-button{
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    border:0px solid gray;
+    border-radius: 17px;
+    padding:12px;
+}
+.warn{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.record-item{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+    padding:10px 0px;
+
+}
+.record-item h1,p{
+    margin:0px;
+}
+.record-item p{
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.menu-btn{
+    font-size: 13px;
+    border-radius: 5px;
+    border:0px;
+    
+    color:white;
+    cursor: pointer;
+}
+.edit-btn{
+    background-color: dodgerblue;
+}
+.delete-btn{
+    background-color:firebrick;   
+}
